@@ -10,9 +10,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model todo {
-  id        Int @id @default(autoincrement())
-  text     String
-  completed Boolean @default(false)
-  createdAt DateTime @default(now())
+model todos {
+  id        String   @id
+  text      String
+  completed Boolean
+  createdAt Int
 }
