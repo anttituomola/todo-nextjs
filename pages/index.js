@@ -1,9 +1,11 @@
+import InputElements from "../components/InputElements"
+import TodoRendering from "../components/TodoRendering"
 
 const index = () => {
   return (
       <>
-        <input type="text" />
-        <button>Save</button>
+        <InputElements />
+        <TodoRendering />
       </>
     )
 }
