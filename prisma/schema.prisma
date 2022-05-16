@@ -16,3 +16,8 @@ model todos {
   completed Boolean
   createdAt Int
 }
+
+model users {
+  email     String @id
+  password  String
+}

@@ -2,10 +2,12 @@ import { createSlice } from "@reduxjs/toolkit"
 import { v4 as uuid } from "uuid"
 import dayjs from "dayjs"
 
+
 export const todoSlice = createSlice({
     name: "todo",
 
     initialState: {
+        // How to hydrate the initial state from the server?        
         todos: [],
     },
 
